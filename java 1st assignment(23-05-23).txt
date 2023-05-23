@@ -1,0 +1,765 @@
+Q1) Write a c++ program to find the third angle of triangle.
+Sample output:
+Find the third angle of triangle:
+Input the 1st angle of the triangle: 30
+Input the 2nd angle of the triangle: 60
+The 3rd of the triangle is : 90
+
+Code==>
+ 
+package kanchan;
+
+import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		int a,b,c;
+		System.out.println(" Enter the 1st angle of triangle ");
+		a=object.nextInt();
+		System.out.println(" Enter the 2nd value ");
+		b=object.nextInt();
+		c=180-90;
+		System.out.println(" THIRD ANGLE IS "+c);
+		c=object.nextInt();
+
+		
+		}
+	}
+
+
+Q2) Change two strings with using third variable
+Code:==>
+ 
+package kanchan;
+
+import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		String str,str1,str2;
+		
+		System.out.println(" Enter a 1st string ");
+		str1=object.nextLine();
+		System.out.println(" Enter a 2nd string ");
+		str2=object.nextLine();
+		str=str1;
+		str1=str2;
+		str2=str;
+		
+		System.out.println(" After changing a string ");
+		System.out.println(" The value of 1st string is : " + str1);
+		System.out.println(" The value of 2nd  string is : " + str2);
+		System.out.println(str1+" "+str2);
+		
+		}
+	}
+
+
+Q3) Create a Java program to print your details, like name, address, phone number, blood group etc.
+
+Code:==>
+package kanchan;
+import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		String info,name,add,blood;
+		 int mobile ;
+		 System.out.println(" Enter your Information ");
+		 info=object.nextLine();
+		 System.out.println(" Enter your Name ");
+		 name=object.nextLine();
+		 System.out.println(" Enter your Address ");
+		 add=object.nextLine();
+		 System.out.println(" Enter your Blood Group ");
+		 blood=object.nextLine();
+		 System.out.println(" Enter your Mobile_No ");
+		 mobile=object.nextInt();
+		
+		 System.out.println(" My Name is "+name);
+		 System.out.println(" My Address is "+add);
+		 System.out.println(" M Blood_Group is "+blood);
+		 System.out.println(" <y Mobile_No is "+mobile);
+		
+		}
+	}
+
+
+
+Q4)Create a Java program to change the value of a given variable, for example a is initilized as 10 and make it to 20.
+
+code:==>
+package kanchan;
+//import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		//Scanner object=new Scanner(System.in);
+		int a=10;
+		System.out.println("Before change the value of A is :"+a);
+		//a=object.nextInt();
+		
+		System.out.println(" After change the value of A is : "+a*2);
+		}
+	}
+
+
+
+Q5) Write a Java program to print the sum of three numbers.
+
+code:==>
+package kanchan;
+import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		int a=10,b=10,c=23;
+		int sum;
+		sum=a+b+c;
+		System.out.println("SUM OF THREE NOS IS : "+sum);
+		a=object.nextInt();
+		b=object.nextInt();
+		c=object.nextInt();
+		}
+	}
+
+
+Q6) Write a Java program to print square of a number.
+
+code:==>
+
+package kanchan;
+import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		int a;
+		System.out.println(" Enter a value");
+		a=object.nextInt();
+		System.out.println(" Square of a number is : "+a*a);
+		
+		}
+	}
+
+
+Q7) Write a java program which initializes a variable name and greets with "Hello , have a good day
+
+code:==>
+package kanchan;
+import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		String str = "kanchan";
+		
+		
+		System.out.println(" Hello " + str + " have a good day");
+		str=object.nextLine();
+		}
+	}
+
+
+Q8) Try to understand what happens when type casting is done from char to int and int to char (Hint: Ascii Values)
+
+code:==>
+
+package kanchan;
+public class kanchu{
+	public static void main(String Args[]) {
+		char k = 'a';
+		System.out.println(" After typecasting "+((int)k));
+		}
+	}
+
+
+
+Q9) Try to print the length of you name and full name, and then print the difference between the characters of the first name and last name. For example: F_name - Nilkanth L_name - Java Output for the above should be 4.
+
+code==>
+package kanchan;
+import java.util.Scanner;
+public class lengthname {
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		String name,fullname;
+		System.out.println(" Enter your name ");
+		name=object.nextLine();
+		System.out.println(" Enter your Full name ");
+		fullname=object.nextLine();
+		int diff=fullname.length()-name.length();
+		if(diff<0) {
+			diff=-diff;
+		}
+		
+		System.out.println(" Difference between : "+ diff );
+		
+	}
+
+}
+
+
+Q10. Concatenate two Strings Example for two Strings:: String str1 = kanchan String str2 = khade 
+
+code:==>
+
+package kanchan;
+
+public class concateatwostring {
+public static void main(String args[]) {
+	String str1= "kanchan";
+	String str2= "khade";
+	System.out.println(" After concatenate of two Strings is :"+str1+str2 );
+}
+}
+
+
+Q11) Check what is the number of letter for "K" String: ABCDEFGHIJKLMNOPQRSTUVWXYZ Example: for D number should be 4
+
+code:==>
+
+ package kanchan;
+
+public class string {
+public static void main(String Args[]) {
+	String arr[] = {" ","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z" };
+	String a ="K";
+	for(int i=0;i<=27;i++) {
+	if(arr[i]==a) {
+		System.out.println(“ The value of ‘K’is “ +i);
+	}
+	}
+}
+}
+
+
+Q12) Concatenate one String and one integer. Example for one String and two integer: String a = Nilkanth int b = 6197 int c = 1234 Output: Nilkanth619712344
+
+code:==>
+ 
+package kanchan;
+
+public class concatestringandint {
+	public static void main(String Args[]) {
+		String a = "Nilkanth";
+		int b = 6197;
+		int c = 1234;
+		System.out.println(a+b+c);
+	}
+
+}
+
+
+Q13) Print the mathemaƟcal table for 5.
+
+code:==> 
+
+package kanchan;
+
+public class divisibleby5 {
+	public static void main(String Args[]) {
+		int a=5,i;
+		for(i=1;i<=10;i++) {
+		System.out.println(a*i);
+	}
+
+}
+}
+
+
+Q14) Write a program in Java to find the first 10 natural numbers. Sample output:The natural numbers are:1 2 3 4 5 6 7 8 9 10
+
+code:==>  
+
+package kanchan;
+
+public class naturalno {
+public static void main(String Args[]) {
+int num;
+for(int i=1;i<=10;i++) {
+	System.out.println("The natural numbers are:" +i);
+}
+}
+}
+
+Q15) Write a program to find the factorial value of any number entered through the keyboard. (Using for and while)
+
+code:==>
+ackage kanchan;
+
+public class factorial {
+public static void main(String Args[]) {
+	int fact=5;
+	int a=1;
+	int c= fact;
+	while(fact/c!=fact){
+		a=a*c;
+		c--;
+		System.out.println(a);
+	}
+}
+}
+
+Q16) Print first 30 even numbers and the total of them.
+
+code==>
+ package kanchan;
+
+public class first30evenno {
+public static void main(String args[]) {
+	int a =30;
+	int i,b=0;
+	for(i=1;i<=30;i++) {
+		if(i%2==0) {
+			//b=b+i;
+			
+			b=b+i;
+		}
+	}System .out.println(b);
+}
+}
+
+or
+
+package kanchan;
+
+public class first30evenno {
+public static void main(String args[]) {
+	int i,b=0;
+	for(i=2;i<=30;i+=2) {
+		
+		System.out.println(i)	;
+			b=b+i;
+		
+	}System .out.println(" sum "+b);
+}
+}
+
+Q17) write a c++ that calculate the volume of cube. 
+
+code==>
+
+package kanchan;
+import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		int l,b,h;
+		int vcube;
+		System.out.println(" Enter the length");
+		l=object.nextInt();
+		System.out.println(" Enter the breath ");
+		b=object.nextInt();
+		System.out.println(" Enter the height ");
+		h=object.nextInt();
+		vcube=l*b*h;
+		System.out.println("volume of cube is : " );
+		System.out.println(vcube);
+		vcube=object.nextInt();
+		}
+	}
+
+Q18)Prepare a code to check the voters eligibility. Take a variable int age. if age is greater than 18 
+print. "eligible" else print " not eligible".
+code==>
+package assignment22;
+import java.util.Scanner;
+public class voter { 
+	public static void main(String[] args) {
+		
+
+		Scanner age=new Scanner(System.in);
+		System.out.print("Please Enter your year of birth : ");
+		int Age=age.nextInt();
+
+		int date =2023-Age;
+		System.out.print("your age is : "+date);
+		if(date>=18) {
+			System.out.print(" your Eligibal for vote");
+		}else {
+			System.out.print(" your not Eligibal for vote");
+		}
+	}
+}
+Q18) Create a code to check the length of a string = "Hi I’m learning in PFE, I will become a 
+developer". Now if the length is greater than 28 change the string to "I will become a 
+developer". and print "Successfully changed."
+code==> 
+
+package assignment22;
+import java.util.Scanner;
+public class changedata {
+
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the text : ");
+		String str=sc.nextLine();
+		int len = str.length();
+		String a,b,c;
+		if(len>=28) {
+			System.out.println("Successfully changed ");
+		}else {
+			
+			System.out.println("I will become a developer");
+		}		
+		
+		System.out.print("Enter A String : ");
+		a=sc.nextLine();
+		System.out.print("Enter B String : ");
+		b=sc.nextLine();
+		
+		a=b;
+		b=c;
+		c=a;
+		
+		System.out.println("After switching the values : ");
+		System.out.println("value of A is "+a);
+		System.out.println("value of b is "+b);
+	}
+}
+
+
+23/05/23   23/05/23   23/05/23   23/05/23  23/05/23
+
+
+
+
+
+Q1) Find area of the triangle, rectangle, circle.
+code==>
+package kanchan;
+import java.util.Scanner;
+public class Areaoftrianglerectangleandcircle {
+public static void main(String Args[]) {
+	Scanner object=new Scanner(System.in);
+	int b,h;
+	float area;
+	
+	System.out.println(" Enter the height ");
+	h=object.nextInt();
+	System.out.println(" Enter the breath ");
+	b=object.nextInt();
+	System.out.println(" Area of triangle is : "+0.5*(b*h));
+	int l,w;
+
+	System.out.println(" Enter the length ");
+	l=object.nextInt();
+	System.out.println(" Enter the width ");
+	w=object.nextInt();
+	System.out.println(" Area of rectangle is : "+l*w);
+	int r;
+	
+	System.out.println(" Enter the radius ");
+	r=object.nextInt();
+	System.out.println(" Area of circle is : "+3.14*r*r);
+	
+	
+}
+}
+
+
+Q.2) How to merge two lists in java? Example: String1 = "mei hun gian" String2 = "mei hun bada 
+takatwar" Output = mei hun gian mei hun bada takatwa "
+code==>
+package kanchan;
+
+public class mergetwostring {
+	public static void main(String Args[]) {
+	String str1= "mei hun gian " ;
+	String str2 =" mei hun bada takadwar";
+	
+System.out.println(str1.concat(str2));
+}
+}
+
+
+Q3) find the greatest number?
+code==>
+package kanchan;
+
+public class greatesttwonos {
+	public static void main(String Args[]) {
+		int a=10;
+		int b=20;
+		System.out.println(" Greatest number is : "+Math.max(a, b));
+	}
+
+}
+
+
+Q4) Write a code to test whether an entered no is positive or negative.
+code==> 
+package kanchan;
+import java .util.Scanner;
+public class postiveornegativeno {
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		int n;
+		System.out.println(" Enter a no ");
+		n= object.nextInt();
+		if(n>0) {
+			System.out.println(" Number is positive ");
+			
+		}
+		else {
+			System.out.println(" Number is negative ");
+		}
+		
+	}
+
+}
+
+
+Q5)  Write a code to check if entered year is leaf year or not. 
+code==>
+package kanchan;
+import java.util.Scanner;
+public class leapyearornot {
+public static void main(String Args[]) {
+		Scanner abc= new Scanner(System.in);
+		
+		int year;
+		System.out.println(" Enter a year ");
+		year= abc.nextInt();
+		if(year%4==0) {
+			System.out.println("  Leap Year ");
+		}
+		else {
+			System.out.println(" Not leap year ");
+		}
+	}
+
+}
+
+Q6)  Take an int input from user and return negaƟon of that.
+E.g. 
+Input 3 -4 
+Output -3 4 
+code==>
+package kanchan;
+import java.util.Scanner;
+public class negation {
+public static void main (String Args[]) {
+	Scanner abc=new Scanner(System.in);
+	int a;
+	System.out.println(" Eneter a no ");
+	a=abc.nextInt();
+	if(a<0) {
+	System.out.println(" negation "+a );
+	}else {
+		System.out.println(" negation "+(-a));
+	}
+	}
+}
+
+
+Q7) Sample o/p: 
+Convert temperature in Fahrenheit to Celsius: 
+Input the temp in fahrenheit:95 
+The temp in Fahrenheit: 95 
+The temp in Celsius: 35
+code==>
+package kanchan;
+import java.util.Scanner;
+public class converttempinfahrenheit {
+public static void main(String Args[]) {
+	Scanner abc=new Scanner(System.in);
+	int f,c;
+	System.out.println(" Enter a tempreture ");
+	f=abc.nextInt();
+	c=(f-32)*5/9;
+	System.out.println(" Tempreture in Fahrenheit to Celsius is "+(c));
+}
+}
+
+
+Q8) write a c++ that calculate the volume of cube. 
+code==>
+package kanchan;
+import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		int l,b,h;
+		int vcube;
+		System.out.println(" Enter the length");
+		l=object.nextInt();
+		System.out.println(" Enter the breath ");
+		b=object.nextInt();
+		System.out.println(" Enter the height ");
+		h=object.nextInt();
+		vcube=l*b*h;
+		System.out.println("volume of cube is : " );
+		System.out.println(vcube);
+		vcube=object.nextInt();
+		}
+	}
+
+Q9) Write a c++ program to find the third angle of triangle.
+Sample output:
+Find the third angle of triangle:
+Input the 1st angle of the triangle: 30
+Input the 2nd angle of the triangle: 60
+The 3rd of the triangle is : 90
+
+code==> 
+package kanchan;
+
+import java.util.Scanner;
+public class kanchu{
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		int a,b,c;
+		System.out.println(" Enter the 1st angle of triangle ");
+		a=object.nextInt();
+		System.out.println(" Enter the 2nd value ");
+		b=object.nextInt();
+		c=180-90;
+		System.out.println(" THIRD ANGLE IS "+c);
+		c=object.nextInt();
+
+		
+		}
+	}
+
+Q10) Write a java program to cal. The area of a equilateral triangle.
+
+code==>
+package kanchan;
+import java.util.Scanner;
+public class areaofequilatraltriangle {
+	public static void main(String Args[]) {
+		Scanner object=new Scanner(System.in);
+		int area,b;
+		System.out.println(" Eneter a value ");
+		b=object.nextInt();
+		System.out.println(" The area of equilatral triangle is : "+1.73*b*b/4);
+		
+	}
+	
+
+}
+
+Q11)  Write a java program to enter principle Ɵme, rate of interest. 
+code==>
+package kanchan;
+import java.util.Scanner;
+public class principletimerateofintrest {
+	public static void main(String Args[]) {
+		Scanner abc=new Scanner(System.in);
+		int r,t,p ;
+		System.out.println(" Principle ");
+		p=abc.nextInt();
+		System.out.println(" time ");
+		t=abc.nextInt();
+		System.out.println(" rate ");
+		r=abc.nextInt();
+System.out.println(" Total amount : "+p*(1+r*t)/4);
+		}
+	}
+
+Q12) Make two point variable assign A to B and B to A
+code==>
+package kanchan;
+import java.util.Scanner;
+public class twovariableAtoBandBtoA {
+	public static void main (String Args[]) {
+		Scanner object=new Scanner(System.in);
+		int a,b;
+		System.out.println("Enter a no ");
+		a=object.nextInt();
+		System.out.println("Enter b no ");
+		b=object.nextInt();
+		a=(a)*b;
+		b=(a)/b;
+		a=a/b;
+		System.out.println(" After execution "+a+b);
+	
+	}
+
+}
+
+
+Q13) Write a java program to reverse a string . 
+code==>
+package kanchan;
+public class reversestring {
+	public static void main(String Args[]) {
+		String str= "kanchan";
+		int i;
+		
+				for(i=str.length()-1;i>=0;i--) {
+					char array=str.charAt(i);
+					System.out.print(array);
+					
+		}
+	}
+
+}
+
+
+Q14) Write a program to cal. Volum of cylinder.
+code==> 
+package kanchan;
+import java.util.Scanner;
+public class voloumeofcylinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner abc=new Scanner(System.in);
+int v,r;
+System.out.println(" Enter Radius ");
+r=abc.nextInt();
+
+System.out.println("voloume of cylinder : "+3.14*r*r);
+
+	}
+
+}
+
+Q15) write a program to cal. Area of hollo cylinder
+code==>
+package kanchan;
+import java.util.Scanner;
+public class areaofhollowcylinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner abc=new Scanner(System.in);
+int R,r,h,Q;
+System.out.println("Enter outer radius ");
+R=abc.nextInt();
+System.out.println("Enter inner radius ");
+r=abc.nextInt();
+System.out.println("Enter height ");
+h=abc.nextInt();
+System.out.println("Enter Q ");
+Q=abc.nextInt();
+System.out.println(" Area of hollow cylinder is "+2 * 3.14*(R + r)*(h + R - r)* Q);
+	}
+
+}
+
+
+Q16) Write a program to cal. The circumference of cylindrical
+code==>
+package kanchan;
+import java.util.Scanner;
+public class circumferenceofcylinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner obj= new Scanner(System.in);
+		int r,circumference ;
+		System.out.println(" Enter radius ");
+		r=obj.nextInt();
+		System.out.println(" Circumference is "+2*3.14*r);
+		
+		
+
+	}
+
+}
+
+
+
+
