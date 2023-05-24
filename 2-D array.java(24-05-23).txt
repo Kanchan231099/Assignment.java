@@ -1,0 +1,222 @@
+Q1) take a input from user and print addition of 2-D array.
+code==>
+package kanchan;
+import java.util.Scanner;
+public class takeinputfromuserandaddthem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a,b;
+		
+		
+		
+	
+			System.out.println("enter the rows :");
+			a=sc.nextInt();
+			System.out.println("column :");
+			b=sc.nextInt();
+			int arrayA[][] = new int [a][b];
+			
+			System.out.println("enter elements a is :");
+			for (int i=0; i<a; i++)
+			{
+			  for(int j =0; j<b; j++)	
+			  {
+				  arrayA[i][j]=sc.nextInt();
+			  }
+			  System.out.println();
+			}
+		System.out.println("enter element of b is");
+		
+		int array[][] = new int [a][b];
+		 for (int x=0; x<a; x++) 
+		 {
+		 for (int y=0; y<b; y++) 
+		 {
+			 array[x][y]=sc.nextInt();
+			 
+		 }
+		 }System.out.println();
+		 
+		 for (int m=0; m<arrayA.length; m++)
+		 {
+			 for (int n =0; n<array.length; n++) 
+			 {
+				 
+			 
+		 
+		 
+		 System.out.print(" "+(arrayA[m][n]+array[m][n]));
+		 }
+	  
+			    
+		 	System.out.println();
+		 }	
+        }
+}
+
+Q2) Addition ,substraction,multiplication using 2-dimensional array.
+code==>
+package kanchan;
+public class twoDarray1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int array1[]= {1,2,3};
+		int array2[]= {4,5,6};
+		int array3[]= {7,8,9};
+		int arrayA[][]= {array1,array2,array3};
+		
+		int array4[]= {12,22,33};
+		int array5[]= {44,55,66};
+		int array6[]= {77,88,99};
+		int arrayB[][]= {array1,array2,array3};
+		for(int row=0;row<arrayA.length;row++) {
+			for(int col=0;col<arrayA[row].length;col++){
+				System.out.println(" Additon of A and B is: "+(arrayA[row][col]+arrayB[row][col]));
+				System.out.println(" Substraction of A and B is :"+(arrayA[row][col]-arrayB[row][col]));
+				System.out.println(" Multiplication of A and B "+(arrayA[row][col]*arrayB[row][col]));
+		}
+	}System.out.println(" ");
+
+
+	}
+}
+
+Q3) Addition using 2-D array.
+Code==>
+package kanchan;
+
+public class twoDarray1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				int array1[]= {1,2,3};
+				int array2[]= {4,5,6};
+				int array3[]= {7,8,9};
+				int arrayA[][]= {array1,array2,array3};
+				
+				for(int i=0;i<arrayA.length;i++) 
+				{
+					for(int j=0;j<arrayA[i].length;j++)
+					{
+						System.out.print(" "+arrayA[i][j]);
+					} 
+					System.out.println(" ");
+				}
+				int array4[]= {10,20,30};
+				int array5[]= {40,50,60};
+				int array6[]= {70,80,90};
+			    int	arrayB[][]= {array4,array5,array6};
+					
+					for(int x=0;x<arrayB.length;x++) 
+					{
+						for( int y=0;y<arrayB[x].length;y++)
+						{
+					      System.out.print(" "+arrayB[x][y]);
+						}
+					    System.out.println(" ");
+					    
+					    }
+			for(int m=0;m<arrayA.length;m++) {
+				for(int k=0;k<arrayB.length;k++)
+				{
+					    System.out.print (" "+arrayA[m][k]+arrayB[m][k]);
+					   }
+				System.out.println(" ");
+			}
+			System.out.println(" ");
+	}
+}
+
+Q4)substraction using 2-D array.
+code==>
+package kanchan;
+public class twoDarray1 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				int array1[]= {1,2,3};
+				int array2[]= {4,5,6};
+				int array3[]= {7,8,9};
+				int arrayA[][]= {array1,array2,array3};
+				
+				for(int i=0;i<arrayA.length;i++) 
+				{
+					for(int j=0;j<arrayA[i].length;j++)
+					{
+						System.out.print(" "+arrayA[i][j]);
+					} 
+					System.out.println(" ");
+				}
+				int array4[]= {10,20,30};
+				int array5[]= {40,50,60};
+				int array6[]= {70,80,90};
+			    int	arrayB[][]= {array4,array5,array6};
+					
+					for(int x=0;x<arrayB.length;x++) 
+					{
+						for( int y=0;y<arrayB[x].length;y++)
+						{
+					      System.out.print(" "+arrayB[x][y]);
+						}
+					    System.out.println(" ");
+					    
+					    }
+			for(int m=0;m<arrayA.length;m++) {
+				for(int k=0;k<arrayB.length;k++)
+				{
+					    System.out.print (" "+(arrayA[m][k]-arrayB[m][k]));
+					   }
+				System.out.println(" ");
+			}
+			System.out.println(" ");
+	}
+}
+
+Q5)multiplication using 2-D array.
+code==>
+package kanchan;
+public class twoDarray1 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				int array1[]= {1,2,3};
+				int array2[]= {4,5,6};
+				int array3[]= {7,8,9};
+				int arrayA[][]= {array1,array2,array3};
+				
+				for(int i=0;i<arrayA.length;i++) 
+				{
+					for(int j=0;j<arrayA[i].length;j++)
+					{
+						System.out.print(" "+arrayA[i][j]);
+					} 
+					System.out.println(" ");
+				}
+				int array4[]= {10,20,30};
+				int array5[]= {40,50,60};
+				int array6[]= {70,80,90};
+			    int	arrayB[][]= {array4,array5,array6};
+					
+					for(int x=0;x<arrayB.length;x++) 
+					{
+						for( int y=0;y<arrayB[x].length;y++)
+						{
+					      System.out.print(" "+arrayB[x][y]);
+						}
+					    System.out.println(" ");
+					    
+					    }
+			for(int m=0;m<arrayA.length;m++) {
+				for(int k=0;k<arrayB.length;k++)
+				{
+					    System.out.print (" "+(arrayA[m][k]*arrayB[m][k]));
+					   }
+				System.out.println(" ");
+			}
+		System.out.println(" ");
+	}
+}
+
+
+
