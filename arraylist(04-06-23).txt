@@ -1,0 +1,173 @@
+Q1) Write a Java program to add an element to the end of an ArrayList.
+package youtube;
+import java .util.*;
+public class Arraylistaddelenent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> list=new ArrayList<>();
+list.add("Raj");
+list.add("Prasad");
+list.add("Rhan");
+System.out.println(list);
+list.add("Mohan");
+System.out.println(list);
+}
+
+}
+
+Q2)  Write a Java program to add an element at a specified index in an ArrayList.
+code==>
+package youtube;
+import java .util.*;
+public class Arraylistaddelenent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> list=new ArrayList<>();
+list.add("Raj");
+list.add("Prasad");
+list.add("Rhan");
+list.add(2,"Ankit");
+System.out.println(list);
+
+
+}
+
+}
+
+Q3)  Write a Java program to remove the first element from an ArrayList.
+code==>
+package youtube;
+import java .util.*;
+public class Arraylistaddelenent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> list=new ArrayList<>();
+list.add("Raj");
+list.add("Prasad");
+list.add("Rhan");
+list.remove(0);
+System.out.println(list);
+
+
+}
+
+}
+
+Q4)  Write a Java program to remove the last element from an ArrayList.
+code==>
+package youtube;
+import java .util.*;
+public class Arraylistaddelenent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> list=new ArrayList<>();
+list.add("Raj");
+list.add("Prasad");
+list.add("Rhan");
+list.remove(2);
+System.out.println(list);
+
+
+}
+
+}
+
+
+Q5)  Write a Java program to remove an element at a specified index from an ArrayList.
+code==>
+package youtube;
+import java .util.*;
+public class Arraylistaddelenent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> list=new ArrayList<>();
+list.add("Raj");
+list.add("Prasad");
+list.add("Rhan");
+list.remove(1);
+System.out.println(list);
+
+
+}
+
+}
+
+Q6) Write a Java program to get the size of an ArrayList.
+code==>
+package youtube;
+import java .util.*;
+public class Arraylistaddelenent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> list=new ArrayList<>();
+list.add("Raj");
+list.add("Prasad");
+list.add("Rhan");
+int size=list.size();
+System.out.println(list);
+
+
+}
+
+}
+
+
+Q7) Write a Java program to iterate through all the elements in an ArrayList.
+code==>
+package youtube;
+import java .util.*;
+public class Arraylistaddelenent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> list=new ArrayList<>();
+list.add("Raj");
+list.add("Prasad");
+list.add("Rhan");
+for(int i=0;i<list.size();i++) {
+	System.out.println(list.get(i));
+}
+}
+}
+
+Q8) Write a Java program to check if an element exists in an ArrayList.
+code==>
+package youtube;
+import java .util.*;
+public class Arraylistaddelenent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> list=new ArrayList<>();
+list.add("Raj");
+list.add("Prasad");
+list.add("Rhan");
+int size=list.size();
+	System.out.println(list);
+}
+}
+
+Q9) Write a Java program to get the size of an ArrayList.
+code==>
+package youtube;
+import java .util.*;
+public class Arraylistaddelenent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> list=new ArrayList<>();
+list.add("Raj");
+list.add("Prasad");
+list.add("Rhan");
+String element=list.get(2);
+	System.out.println(element);
+}
+}
+
+
