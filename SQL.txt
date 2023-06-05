@@ -1,0 +1,40 @@
+Q1) Create a tables of customer details, order details and price details.
+code==> 
+create database Emp_details;
+use Emp_details;
+create table customer(
+Name varchar(20),
+Address varchar (30),
+ID int ,
+Age int
+);
+select * from customer;
+select Name from customer;
+show tables;
+insert into customer values("Prasad","pune",12345,23);
+insert customer values("Raj","Mumbai",123456,24);
+insert customer values("Vikas","Nagpur",1234,23);
+insert customer values("Rohan","Dharashiv",1234,23);
+insert customer values("Mohan","Nashik",12345,24);
+show tables;
+select * from customer;
+
+create table order_details(Name varchar(23),Address varchar(40),Id int, mobile_no double);
+insert order_details values ("John","pune",123456, 45678976);
+insert order_details values ( "David","Mumbai",12345, 95678976);
+insert order_details values ( "Stuv","Nashik",123487, 91678976);
+insert order_details values ( "Kalpesh","Amravati",12456, 98678976);
+insert order_details values ("Akshay", "Nagpur",343456, 912478976);
+desc order_details;
+select * from order_details;
+
+create table Price_details(Product varchar(34),Product_name varchar(56), Price int);
+insert Price_details values("Cars", "Volvo", 270000);
+insert Price_details values("Cars", "BMW", 2800000);
+insert Price_details values("Cars", "KIA", 290000);
+insert Price_details values("Cars","TOYOTA", 300000);
+insert Price_details values("Cars", "MERCEDES-BENZ", 310000);
+select * from Price_details;
+Select * from customer;
+Select * from order_details;
+select * from price_details;
